@@ -398,10 +398,10 @@ public class Tablero extends JFrame {
     }
     
     public void instrucciones(JPanel panel){
-        JLabel label_1 = new JLabel("para jugar toque el numero de la derecha y coloquelo en el espacio del tablero,tiene 3 vidas");
+        JLabel label_1 = new JLabel("para jugar toque el numero de la derecha y coloquelo en el tablero,tiene 3 vidas");
         label_1.setFont(new Font("Arial", 0, 12));
         label_1.setForeground(Color.black);
-        label_1.setBounds(200, 520, 400, 15);
+        label_1.setBounds(170, 520, 470, 15);
         panel.add(label_1);
     }
 }
