@@ -268,17 +268,12 @@ public class Tablero extends JFrame {
                 verificador=true;
             }else{
                 verificador=false;
-            }
-            if(verificador==false){
                 break;
             }}
-            if(verificador==false){
-                break;
-            }
+        }
             if(verificador==true){
                 return true;
             }
-        }
        return false;
     }
     
